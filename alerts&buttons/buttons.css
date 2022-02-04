@@ -27,6 +27,13 @@
     cursor:pointer;
 }
 
+.btn-icon{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /*button variants*/
 
 .btn-default{
