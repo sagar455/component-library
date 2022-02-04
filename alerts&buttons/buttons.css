@@ -1,0 +1,90 @@
+@import url(/custom.css);
+
+.wrapper{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*buttons*/
+
+.btns{
+    display:inline-block;
+    flex-direction: row;
+    margin-right:auto
+}
+
+.btn{
+    padding:0.5rem;
+    margin:1rem;
+    width:8rem;
+    height:2.5rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+
+/*button variants*/
+
+.btn-default{
+    background-color: var(--grey-400);
+
+}
+
+.btn-filled{
+    background-color: var(--green);
+    color: var(--green-200)
+
+}
+
+.btn-outlined{
+    color: var(--green)
+
+}
+
+.btn-text{
+    background-color: inherit;
+    border:none;
+    color: var(--green)
+
+}
+
+/*button color variants*/
+
+.btn-green{
+ background-color: var(--green);
+ color: var(--green-200)
+}
+
+.btn-grey{
+ background-color: var(--grey);
+color: var(--grey-300)
+}
+
+.btn-red{
+    background-color: var(--danger);
+   color: var(--danger-300)
+   }
+
+.btn-yellow{
+    background-color: var(--yellow);
+   color: var(--yellow-200)
+   }
+
+.btn-violet{
+    background-color: var(--violet);
+   color: var(--violet-300)
+   }
+
+.btn-blue{
+    background-color: var(--primary);
+   color: var(--primary-200)
+   }
+
+.btn-dark{
+    background-color: var(--black);
+   color: var(--white)
+   }

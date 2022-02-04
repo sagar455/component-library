@@ -1,0 +1,150 @@
+@import url(/custom.css);
+
+.wrapper{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* alert*/
+
+.alert{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    height:50px;
+    margin:1rem;
+    font-size:20px;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 0.5rem;
+    cursor:pointer;
+   
+}
+
+/*alert variants*/
+
+.alert-primary{
+   
+    background-color: var(--primary-400);
+    color: var(--primary-200);
+   
+}
+.alert-secondary{
+   
+    background-color: var(--grey);
+    color: var(--lynx-gray);
+    
+}
+.alert-danger{
+
+    background-color: var(--danger-400);
+    color: var(--danger-300);
+   
+}
+.alert-warning{
+    
+    background-color: var(--yellow-400);
+    color: var(--yellow-200);
+}
+.alert-success{
+    
+    background-color: var(--green-400);
+    color: var(--green-200);
+    
+}
+.alert-dark{
+  
+    background-color: var(--black);
+    color: var(--grey-400);
+   
+}
+.alert-light{
+   
+    background-color: var(--secondary);
+    color: var(--lynx-gray);
+  
+}
+
+/*buttons*/
+
+.btns{
+    display:inline-block;
+    flex-direction: row;
+    margin-right:auto
+}
+
+.btn{
+    padding:0.5rem;
+    margin:1rem;
+    width:8rem;
+    height:2.5rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+
+/*button variants*/
+
+.btn-default{
+    background-color: var(--grey-400);
+
+}
+
+.btn-filled{
+    background-color: var(--green);
+    color: var(--green-200)
+
+}
+
+.btn-outlined{
+    color: var(--green)
+
+}
+
+.btn-text{
+    background-color: inherit;
+    border:none;
+    color: var(--green)
+
+}
+
+/*button color variants*/
+
+.btn-green{
+ background-color: var(--green);
+ color: var(--green-200)
+}
+
+.btn-grey{
+ background-color: var(--grey);
+color: var(--grey-300)
+}
+
+.btn-red{
+    background-color: var(--danger);
+   color: var(--danger-300)
+   }
+
+.btn-yellow{
+    background-color: var(--yellow);
+   color: var(--yellow-200)
+   }
+
+.btn-violet{
+    background-color: var(--violet);
+   color: var(--violet-300)
+   }
+
+.btn-blue{
+    background-color: var(--primary);
+   color: var(--primary-200)
+   }
+
+.btn-dark{
+    background-color: var(--black);
+   color: var(--white)
+   }
