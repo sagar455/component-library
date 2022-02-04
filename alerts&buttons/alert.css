@@ -1,0 +1,71 @@
+@import url(/custom.css);
+
+.wrapper{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* alert*/
+
+.alert{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    height:50px;
+    margin:1rem;
+    font-size:20px;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    border-radius: 0.5rem;
+    cursor:pointer;
+   
+}
+
+/*alert variants*/
+
+.alert-primary{
+   
+    background-color: var(--primary-400);
+    color: var(--primary-200);
+   
+}
+.alert-secondary{
+   
+    background-color: var(--grey);
+    color: var(--lynx-gray);
+    
+}
+.alert-danger{
+
+    background-color: var(--danger-400);
+    color: var(--danger-300);
+   
+}
+.alert-warning{
+    
+    background-color: var(--yellow-400);
+    color: var(--yellow-200);
+}
+.alert-success{
+    
+    background-color: var(--green-400);
+    color: var(--green-200);
+    
+}
+.alert-dark{
+  
+    background-color: var(--black);
+    color: var(--grey-400);
+   
+}
+.alert-light{
+   
+    background-color: var(--secondary);
+    color: var(--lynx-gray);
+  
+}
+
