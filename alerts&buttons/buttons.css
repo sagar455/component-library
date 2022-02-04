@@ -52,6 +52,17 @@
 
 }
 
+.btn-link{
+    text-decoration: none;
+}
+
+.btn-float{
+    width:3rem;
+    border-radius: 100%;
+}
+
+
+
 /*button color variants*/
 
 .btn-green{
@@ -88,3 +99,4 @@ color: var(--grey-300)
     background-color: var(--black);
    color: var(--white)
    }
+

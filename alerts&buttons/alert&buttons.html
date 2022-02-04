@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="alert.css">
     <link rel="stylesheet" href="buttons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Alerts & Buttons</title>
 </head>
 <body>
@@ -36,7 +37,7 @@
       Dark Alert!!!
     </div>
 
-    <div class="alert alert-light">  <!--plight alert-->
+    <div class="alert alert-light">  <!--light alert-->
       Light Alert!!!
     </div>
 
@@ -46,7 +47,33 @@
       <button class="btn btn-filled">Contained</button>   <!--contained button-->
       <button class="btn btn-outlined">Outline</button>   <!--outlined button-->
       <button class="btn btn-text">Text</button>          <!--text button-->
+      <button class="btn btn-text ">
+        <a class="btn-link" href="#">Link</a>
+      </button>
+      <button class="btn btn-default btn-float">
+        <span class="material-icons">add</span>
+    </button>
   </div> 
+
+  <div class="btns">
+    <h1>Icon Buttons</h1>
+    <button class="btn btn-icon-begining">
+      <span class="material-icons">
+        file_upload
+        </span>
+      Primary</button>
+    <button class="btn btn-icon-end">
+      Primary
+      <span class="material-icons">
+        file_upload
+        </span>
+      </button>
+    <button class="btn btn-icon-only">
+      <span class="material-icons">
+        file_upload
+        </span>
+      </button>
+  </div>
 
   <div class="btns btn-variants">
     <h1>Button Color Variants</h1>
@@ -57,6 +84,8 @@
     <button class="btn btn-violet">Violet</button>
     <button class="btn btn-blue">Blue</button>
     <button class="btn btn-dark">Black</button>
+  </div>
+
   </div>
 
   </div>
