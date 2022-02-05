@@ -1,0 +1,32 @@
+@import url(/custom.css);
+.wrapper{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.avatar{
+    border-radius: 50%;
+    width:6rem
+}
+
+.basic-avatar{
+    background-color: inherit;
+}
+
+.avatar-small{
+    width:3rem
+}
+.avatar-medium{
+    width:4rem
+}
+.avatar-large{
+    width:5rem
+}
+.avatar-xl{
+    width:8rem
+}
+
