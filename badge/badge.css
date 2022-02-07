@@ -1,0 +1,100 @@
+@import url(/custom.css);
+@import url(/avatar/avatar.css);
+
+.badge-wrapper{
+    position:relative; 
+    height:fit-content;
+    width:fit-content
+}
+
+.container{
+    display:flex;
+}
+
+.badge{
+    position:absolute;
+    background-color: var(--lynx-gray);
+    border-radius: 50%;
+}  
+
+.badge-default{
+    width:1.5rem;
+    height:1.5rem;
+    border-radius: 50%;
+    
+}
+
+.badge-top-right{
+    top:1;
+    right:0;
+}
+
+.badge-top-left{
+    top:1;
+    left:0;  
+}
+
+.badge-bottom-right{
+    bottom:0;
+    right:0;  
+}
+
+.badge-bottom-left{
+    bottom:0;
+    left:0;  
+}
+
+
+.badge-small{
+    width:0.8rem;
+    height:0.8rem;
+}
+
+.badge-medium{
+    width:1rem;
+    height:1rem;
+}
+
+.badge-large{   
+    width:1.2rem;
+    height:1.2rem;
+    
+}
+
+.badge-xl{  
+    width:1.8rem;
+    height:1.8rem;
+}
+
+.material-icons{
+    font-size:3rem;
+}
+
+.badge-green{
+   
+    background-color: var(--green);
+}
+.badge-grey{
+
+    background-color: var(--grey);
+}
+.badge-yellow{
+    
+    background-color: var(--yellow);
+}
+.badge-violet{
+   
+    background-color: var(--violet);
+}
+.badge-red{
+   
+    background-color: var(--danger);
+}
+.badge-blue{
+   
+    background-color: var(--primary);
+}
+.badge-black{
+   
+    background-color: var(--black);
+}
