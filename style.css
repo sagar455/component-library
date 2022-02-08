@@ -1,0 +1,58 @@
+@import url(custom.css);
+@import url(./alerts&buttons/buttons.css);
+
+body{
+    background-color: var(--lynx-gray);
+    margin:0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    background: var(--grey-600);
+}
+
+.header-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+.header-nav li {
+    display: inline-block;
+}
+
+.header-nav a {
+    padding: 8px;
+    text-decoration: none;
+    color:var(--lynx-gray)
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    text-align: center
+}
+
+.btn a{
+    text-decoration: none;
+    color:var(--black)
+}
+
+.img-logo{
+    width:80px;
+    height:80px;
+}
+
+.content-logo{
+    width:500px;
+    height:500px;
+}
+
+.content p{
+    font-family: var(--heading-font-family);
+    font-size:1.5rem;
+}
