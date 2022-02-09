@@ -39,7 +39,8 @@ body{
 
 .btn a{
     text-decoration: none;
-    color:var(--black)
+    color:var(--black);
+    cursor:pointer;
 }
 
 .img-logo{
@@ -48,8 +49,9 @@ body{
 }
 
 .content-logo{
-    width:500px;
-    height:500px;
+    width:300px;
+    transform: scale(2);
+
 }
 
 .content p{

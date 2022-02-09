@@ -1,0 +1,66 @@
+@import url(/custom.css);
+@import url(/style.css);
+
+.sidenav {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+    height: 100%;
+    width: 160px;  
+    position: fixed; 
+    top:0;
+    background-color: var(--grey-300);
+    padding-top: 20px;
+  }
+  
+  .sidenav h3{
+    padding-top:10px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 19px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--grey-600);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: var(--grey)
+  }
+  
+  .seprator{
+      border-bottom: 1px solid;
+      margin:0.5rem;
+      padding-top:0rem;
+  }
+
+  .main {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 12rem; 
+    margin-right: 2rem; 
+    padding: 0px 10px;
+    background-color: var(--grey-300);
+    z-index: -1;
+    /* position:fixed; */
+   
+  }
+ 
+  .snippet{
+    margin:auto;
+    height:auto;
+
+  }
+ 
+  .main h1{
+      font-family: var(--heaing-font-family);
+      font-weight: 500;
+  }
+
+  .main p{
+      font-family: var(--content-font-family);
+      font-size: 1.4rem;
+  }
