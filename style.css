@@ -1,5 +1,5 @@
 @import url(custom.css);
-@import url(./alerts&buttons/buttons.css);
+@import url(./components/alerts&buttons/buttons.css);
 
 body{
     background-color: var(--lynx-gray);

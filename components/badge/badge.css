@@ -1,5 +1,5 @@
 @import url(/custom.css);
-@import url(/avatar/avatar.css);
+@import url(/components/avatar/avatar.css);
 
 .badge-wrapper{
     position:relative; 
