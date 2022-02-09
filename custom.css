@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@100;300&display=swap');
+
+:root{
+    --primary: #3B82F6;
+    --primary-200: #BFDBFE ;
+    --primary-400: #60A5FA ;
+    --primary-600: #2563EB ;
+
+    --danger: #FF3B30;
+    --danger-300: #FCA5A5;
+    --danger-400: #F87171;
+    --danger-600: #DC2626;
+
+    --secondary-color: #FFF6EA;
+    
+
+    --grey: #9A9A9A;
+    --grey-300:#D1D5DB;
+    --grey-400:#9CA3AF;
+    --grey-600:#4B5563;
+
+    --yellow:#F59E0B;
+    --yellow-200:#FDE68A;
+    --yellow-400:#FBBF24;
+
+    --black: #282828;
+
+    --white: #ffffff;
+
+    --green: #059669;
+    --green-200: #A7F3D0;
+    --green-400: #34D399;
+
+    --violet: #5348C7;
+    --violet-300: #C4B5FD;
+    --violet-500: #8B5CF6;
+
+    --lynx-gray: #c5c5c5;
+
+
+    --heading-font-family:'Open Sans', sans-serif;
+    --content-font-family:'Roboto', sans-serif;
+}

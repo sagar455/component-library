@@ -1,0 +1,58 @@
+@import url(/custom.css);
+@import url(/style.css);
+
+.doc-container{
+  display:flex;
+  align-items: stretch;
+  gap:1rem
+}
+
+.sidenav {
+  display:flex;
+  flex-direction: column;
+  width: 16rem;  
+  background-color: var(--grey-300);
+  }
+  
+.sidenav a {
+    padding: 0.4rem 0.5rem 1.2rem 1rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--grey-600);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+  
+  .sidenav a:hover {
+    color: var(--grey)
+  }
+  
+  .seprator{
+      border-bottom: 1.5px solid;
+      margin:0.5rem;
+      padding-top:0rem;
+  }
+
+  .main {
+    flex-grow: 1;
+    padding: 0px 10px;
+    background-color: var(--grey-300);
+  }
+ 
+  .snippet{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+
+  }
+ 
+  .main h1{
+      font-family: var(--heaing-font-family);
+      font-weight: 500;
+  }
+
+  .main p{
+      font-family: var(--content-font-family);
+      font-size: 1.4rem;
+  }
