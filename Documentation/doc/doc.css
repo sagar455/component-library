@@ -1,23 +1,20 @@
 @import url(/custom.css);
 @import url(/style.css);
 
+.doc-container{
+  display:flex;
+  align-items: stretch;
+  gap:1rem
+}
+
 .sidenav {
   display:flex;
-  flex-wrap: wrap;
-  flex-direction: column; 
-    height: 100%;
-    width: 160px;  
-    position: fixed; 
-    top:0;
-    background-color: var(--grey-300);
-    padding-top: 20px;
+  flex-direction: column;
+  width: 16rem;  
+  background-color: var(--grey-300);
   }
   
-  .sidenav h3{
-    padding-top:10px;
-  }
-  
-  .sidenav a {
+.sidenav a {
     padding: 0.4rem 0.5rem 1.2rem 1rem;
     text-decoration: none;
     font-size: 20px;
@@ -25,35 +22,28 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-  }
+}
   
   .sidenav a:hover {
     color: var(--grey)
   }
   
   .seprator{
-      border-bottom: 1px solid;
+      border-bottom: 1.5px solid;
       margin:0.5rem;
       padding-top:0rem;
   }
 
   .main {
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-left: 12rem; 
-    margin-right: 2rem; 
+    flex-grow: 1;
     padding: 0px 10px;
     background-color: var(--grey-300);
-    z-index: -1;
-    /* position:fixed; */
-   
   }
  
   .snippet{
-    margin:auto;
-    height:auto;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
 
   }
  
