@@ -58,3 +58,7 @@ body{
     font-family: var(--heading-font-family);
     font-size:1.5rem;
 }
+
+.content-links{
+   margin-top:4rem;
+}
