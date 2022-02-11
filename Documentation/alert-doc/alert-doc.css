@@ -1,0 +1,7 @@
+@import url(/Documentation/doc/doc.css);
+@import url(/components/alerts&buttons/alert.css);
+
+.alerts{
+    border: 1px solid;
+  margin-bottom: 5rem;
+}
