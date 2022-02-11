@@ -1,0 +1,20 @@
+@import url(/custom.css);
+ 
+.wrapper{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-container{
+    display: flex;;
+    border: 1px solid black;
+    width:20rem;
+    justify-content: center;
+}
+
+.rated{
+    color:var(--yellow);
+}
