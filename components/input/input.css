@@ -1,0 +1,43 @@
+@import url(/custom.css);
+
+.wrapper{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group{
+    padding: 0.4rem 1.5rem; 
+   margin: 8px 0; 
+   display: flex;
+   flex-direction: column;
+}
+
+.input-group input{
+   border-radius: 10%;
+}
+
+.success-input input {
+    border: 3px solid var(--green);
+    color: var(--green);
+}
+.success-input label {
+   color:var(--green);
+}
+.error-input input{
+    border: 3px solid var(--danger)
+}
+
+.error-input label{
+    color: var(--danger);
+}
+
+.success-input ::placeholder{
+    color: var(--green-200);
+}
+
+.error-input ::placeholder{
+    color: var(--danger-300);
+}
