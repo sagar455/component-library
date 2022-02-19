@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./input-doc.css">
+    <title>Input</title>
+</head>
+<body>
+  <div class="doc-container">
+    <div class="sidenav">
+      <img class="img-logo" src="/logo.svg" alt="">
+        <section class="seprator home">
+        <a href="/index.html">Home</a>
+        </section>
+        <section class="seprator">
+            <h3>Get Started</h3>
+            <a href="/Documentation/installation-doc/installation.html">Installation</a>
+            <a href="#">Colors</a>
+            <a href="#">Utilities</a>
+       </section>
+       <section class="seprator components">
+        <h3>Components</h3>
+        <a href="../alert-doc/alert-doc.html">ALERT</a>
+        <a href="../avatar-doc/avatar-doc.html">AVATAR</a>
+        <a href="../badge-doc/badge-doc.html">BADGE</a>
+        <a href="../buttons-doc/buttons-doc.html">BUTTON</a>
+        <a href="#">INPUT</a>
+        <a href="../rating-doc/rating-doc.html">RATING</a>
+    </section>
+    </div>
+    <div class="main">
+        <h1>Input</h1>
+       <div class="main-content"> 
+           <p>Input fields allow user to enter data in UI.</p>
+        </div>
+        <div class="wrapper">
+
+          <h3>Input with labels</h3>
+          <form class="form-group">
+              <div class="input-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" placeholder="Name">
+              </div>
+              <div class="input-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" placeholder="Email">
+              </div>
+          </form>
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cform%2520class%253D%2522form-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522Name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fform%253E"
+  style="width: 674px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe></div>
+<div class="wrapper">
+          <h3>Input with success</h3>
+          <form class="form-group">
+              <div class="input-group success-input">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" placeholder="Name">
+              </div>
+              <div class="input-group success-input">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" placeholder="Email">
+              </div>
+          </form>
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cform%2520class%253D%2522form-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520success-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522Name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520success-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fform%253E"
+  style="width: 674px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+<div class="wrapper">
+          <h3>Input with errors</h3>
+          <form class="form-group">
+              <div class="input-group error-input">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" placeholder="Name">
+              </div>
+              <div class="input-group error-input">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" placeholder="Email">
+              </div>
+          </form>
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cform%2520class%253D%2522form-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520error-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522Name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520error-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fform%253E"
+  style="width: 674px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+@import url(../doc/doc.css);
+@import url(/components/rating/rating.css);
+
+.rating-container{
+    margin-bottom: 1rem;
+}
+
+p{
+    margin-bottom: 4rem;
+}
