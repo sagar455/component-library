@@ -4,7 +4,7 @@
 .doc-container{
   display:flex;
   align-items: stretch;
-  gap:1rem
+  gap:1rem;
 }
 
 .sidenav {

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./card-doc.css">
+    <title>Card</title>
+</head>
+<body>
+  <div class="doc-container">
+    <div class="sidenav">
+      <img class="img-logo" src="/logo.svg" alt="">
+        <section class="seprator home">
+        <a href="/index.html">Home</a>
+        </section>
+        <section class="seprator">
+            <h3>Get Started</h3>
+            <a href="/Documentation/installation-doc/installation.html">Installation</a>
+            <a href="#">Colors</a>
+            <a href="#">Utilities</a>
+       </section>
+       <section class="seprator components">
+        <h3>Components</h3>
+        <a href="../alert-doc/alert-doc.html">ALERT</a>
+        <a href="../avatar-doc/avatar-doc.html">AVATAR</a>
+        <a href="../badge-doc/badge-doc.html">BADGE</a>
+        <a href="../buttons-doc/buttons-doc.html">BUTTON</a>
+        <a href="../input-doc/input-doc.html">INPUT</a>
+        <a href="../rating-doc/rating-doc.html">RATING</a>
+        <a href="../navigation-doc/navigation-doc.html">NAVIGATION</a>
+        <a href="#">CARD</a>
+    </section>
+    </div>
+    <div class="main">
+        <h1>Card</h1>
+       <div class="main-content"> 
+           <p>Cards are great for organizing and enhancing a website's user interface.</p>
+        </div>
+        <div class="wrapper">
+          <h2>Simple card</h2>
+          <div class="card">
+            <div class="card-header">
+                <div class="card-title">Card Title</div>
+            </div>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+            </div>
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Placeat%2520deleniti%2520ab%2520hic%2520ipsa%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quasi%2520harum%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="width: 681px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </div>
+  <div class="wrapper">
+    <h2>Card with dismisal</h2>
+  <div class="card">
+    <div class="card-header">
+        <div class="card-title">Card Title</div>
+        <i class='close bx bx-x'></i>
+    </div>
+    <div class="card-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+    </div>
+</div>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27close%2520bx%2520bx-x%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Placeat%2520deleniti%2520ab%2520hic%2520ipsa%2520quasi%2520harum%253F%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 681px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</div>
+  <div class="wrapper">
+    <h2>Vertical card</h2>
+    <div class="vertical-card wrapper">
+      <div class="card-header">
+          <div class="img-container">
+              <img class="card-img" src="./book.jpg" alt="book">
+              <i class='card-wishlist-icon bx bx-heart'></i>
+          </div>
+      </div>
+      <div class="card-body ">
+          <div class="item-price">Rs. 500</div>
+          <div class="description">HARAPPA:Curse Of The Blood River</div>
+      </div>
+      <div class="footer">
+          <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+              <i class='btn-icon bx bxs-cart'></i>Add to cart
+          </button>
+
+          <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+              <i class='btn-icon bx bxs-bolt'></i>Buy Now
+          </button>
+      </div>
+  </div>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522vertical-card%2520wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27card-wishlist-icon%2520bx%2520bx-heart%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253EHARAPPA%253ACurse%2520Of%2520The%2520Blood%2520River%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-outline-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-cart%27%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-solid-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-bolt%27%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 681px; height: 617px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </div>
+  <div class="wrapper">
+    <h2>Horizontal card</h2>
+    <div class="card card-horizontal">
+      <div class="img-container">
+          <img class="card-img" src="./book.jpg" alt="book">
+          <i class='card-wishlist-icon bx bx-heart'></i>
+      </div>
+      <div class="card-horizontal-details">
+          <div class="item-price">Rs. 500</div>
+          <div class="description">HARAPPA:Curse Of The Blood River</div>
+          <div class="card-horizontal-button">
+              <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                  <i class='btn-icon bx bxs-cart'></i>Add to cart
+              </button>
+
+              <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                  <i class='btn-icon bx bxs-bolt'></i>Buy Now
+              </button>
+          </div>
+      </div>
+  </div>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27card-wishlist-icon%2520bx%2520bx-heart%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253EHARAPPA%253ACurse%2520Of%2520The%2520Blood%2520River%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-outline-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-cart%27%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-solid-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-bolt%27%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 681px; height: 598px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </div>
+  <div class="wrapper">
+    <h2>Card with a badge</h2>
+    <div class="card">
+      <span class="card-badge">TRENDING</span>
+      <div class="card-header">
+          <div class="img-container">
+              <img class="card-img" src="./book.jpg" alt="book">
+              <i class='card-wishlist-icon bx bx-heart'></i>
+          </div>
+      </div>
+      <div class="card-body">
+          <div class="item-price">Rs. 500</div>
+          <div class="description">HARAPPA:Curse Of The Blood River</div>
+      </div>
+      <div class="footer">
+          <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+              <i class='btn-icon bx bxs-cart'></i>Add to cart
+          </button>
+
+          <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+              <i class='btn-icon bx bxs-bolt'></i>Buy Now
+          </button>
+      </div>
+  </div>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ETRENDING%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27card-wishlist-icon%2520bx%2520bx-heart%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253EHARAPPA%253ACurse%2520Of%2520The%2520Blood%2520River%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-outline-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-cart%27%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-solid-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-bolt%27%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 681px; height: 635px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </div>
+  <div class="wrapper">
+    <h2>Card with overlay text</h2>
+    <div class="card">
+      <div class="overlay-container">
+          <div class="card-header">
+              <div class="img-container">
+                  <img class="card-img" src="./book.jpg" alt="book">
+                  <i class='card-wishlist-icon bx bx-heart'></i>
+              </div>
+          </div>
+          <div class="card-body">
+              <div class="item-price">Rs. 500</div>
+              <div class="description">HARAPPA:Curse Of The Blood River</div>
+          </div>
+          <div class="footer">
+              <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                  <i class='btn-icon bx bxs-cart'></i>Add to cart
+              </button>
+
+              <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                  <i class='btn-icon bx bxs-bolt'></i>Buy Now
+              </button>
+          </div>
+      </div>
+      <div class="overlay-text">OUT OF STOCK</div>
+  </div>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27card-wishlist-icon%2520bx%2520bx-heart%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253EHARAPPA%253ACurse%2520Of%2520The%2520Blood%2520River%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-outline-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-cart%27%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-solid-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-bolt%27%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 681px; height: 691px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </div>
+  <div class="wrapper">
+    <h2>Card with shadow</h2>
+    <div class="card shadow">
+      <div class="card-header">
+          <div class="img-container">
+              <img class="card-img" src="./book.jpg" alt="book">
+              <i class='card-wishlist-icon bx bx-heart'></i>
+          </div>
+      </div>
+      <div class="card-body">
+          <div class="item-price">Rs. 500</div>
+          <div class="description">HARAPPA:Curse Of The Blood River</div>
+      </div>
+      <div class="footer">
+          <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+              <i class='btn-icon bx bxs-cart'></i>Add to cart
+          </button>
+
+          <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+              <i class='btn-icon bx bxs-bolt'></i>Buy Now
+          </button>
+      </div>
+  </div>
+  <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27card-wishlist-icon%2520bx%2520bx-heart%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item-price%2522%253ERs.%2520500%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522description%2522%253EHARAPPA%253ACurse%2520Of%2520The%2520Blood%2520River%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-outline-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-cart%27%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520card-btn%2520primary-solid-btn%2520primary-btn-text-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27btn-icon%2520bx%2520bxs-bolt%27%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+  style="width: 681px; height: 617px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </div>
+ </div>
+</div>
+</body>
+</html>
