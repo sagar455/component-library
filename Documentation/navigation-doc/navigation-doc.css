@@ -1,0 +1,7 @@
+@import url(../doc/doc.css);
+@import url(/components/navigation/navigation.css);
+
+
+.header{
+    margin-bottom: 5rem;
+}
