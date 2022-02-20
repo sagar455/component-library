@@ -1,0 +1,23 @@
+@import url(/custom.css);
+
+.heading-family{
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+}
+
+.content-family{
+    font-family: var(--content-font-family);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-highlight{
+    background-color: var(--yellow);
+    width:fit-content;
+}
+
+.text-color{
+    color:var(--violet);
+}
