@@ -1,0 +1,7 @@
+@import url(../doc/doc.css);
+@import url(/components/card/card.css);
+
+.card{
+    margin-bottom: 2rem;
+}
+
