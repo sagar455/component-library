@@ -1,0 +1,10 @@
+@import url(/components/text-utilities/text-utilities.css);
+@import url(../doc/doc.css);
+
+.headline-types,.utilities{
+    border:1px solid;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
