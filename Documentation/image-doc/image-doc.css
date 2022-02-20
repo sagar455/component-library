@@ -1,0 +1,9 @@
+@import url(../doc/doc.css);
+@import url(/components/image/image.css);
+
+.image{
+    background-color: white;
+    padding: 2rem 2rem;
+    margin-bottom: 1rem;
+    width:50%;
+}
