@@ -1,0 +1,6 @@
+@import url(../doc/doc.css);
+@import url(/components/slider/slider.css);
+
+.slider{
+    margin:3rem 0 3rem;
+}
