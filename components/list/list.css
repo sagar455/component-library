@@ -1,0 +1,48 @@
+@import url(/custom.css);
+
+.list{
+    background-color: var(--lynx-gray);
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+    padding: .8rem 1rem ;
+    display: flex;
+    flex-direction: column;
+    gap:.25rem;
+    border-radius: .25rem;
+    width: 25%;
+}
+.list-item{
+    background-color: var(--grey-300);
+    display: flex;
+    align-items:center ;
+    gap:1rem;
+    padding: .5rem 1rem ;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.list-item:hover{
+    background-color: var(--white);
+    
+}
+.list hr{
+    height: .1rem;
+    width: 100%;
+    background-color: var(--black);
+    border:none;
+}
+
+.list-stacked{
+    gap:0;
+    padding:0;
+}
+
+.list-stacked .list-item{
+    background-color: var(--lynx-gray);
+}
+
+.list-stacked .list-item:hover{
+    background-color: var(--white);
+
+}
